@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd5fbfd0-fb02-4bea-b28c-333136393020" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/goleveldb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/goleveldb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/.idea/leveldb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/.idea/leveldb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/batch.go" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/batch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/cache/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/cache/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/cache/cache2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/cache/cache_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/cache/lru.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/cache/lru2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/db_compaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/db_compaction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/db_write.go" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/db_write.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/opt/options.go" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/opt/options.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/session.go" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/session.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/session_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/session_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/table.go" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leveldb/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/leveldb/version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/.idea/goleveldb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/.idea/leveldb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/Mydb_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/batch.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/batch_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/cache/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/cache/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/cache/cache2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/cache/cache_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/cache/lru.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/cache/lru2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/comparer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/comparer/bytes_comparer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/comparer/comparer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/corrupt_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/db.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/db_compaction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/db_iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/db_snapshot.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/db_state.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/db_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/db_transaction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/db_util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/db_write.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/errors/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/external_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/filter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/filter/bloom.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/filter/bloom_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/filter/filter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/iterator/array_iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/iterator/array_iter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/iterator/indexed_iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/iterator/indexed_iter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/iterator/iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/iterator/iter_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/iterator/merged_iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/iterator/merged_iter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/journal/journal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/journal/journal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/key.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/key_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/leveldb_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/memdb/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/memdb/memdb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/memdb/memdb_.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/memdb/memdb_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/memdb/memdb_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/opt/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/session.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/session_compaction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/session_record.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/session_record_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/session_util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/storage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/storage/file_storage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/storage/file_storage_nacl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/storage/file_storage_plan9.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/storage/file_storage_solaris.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/storage/file_storage_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/storage/file_storage_unix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/storage/file_storage_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/storage/mem_storage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/storage/mem_storage_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/storage/storage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/table.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/table/block_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/table/reader.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/table/table.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/table/table_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/table/table_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/table/writer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/table_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/testutil/db.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/testutil/ginkgo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/testutil/iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/testutil/kv.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/testutil/kvtest.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/testutil/storage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/testutil/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/testutil_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/util/buffer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/util/buffer_pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/util/buffer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/util/crc32.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/util/hash.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/util/hash_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/util/range.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/util/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/version.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goleveldb7-21/leveldb/version_test.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hZzjZMkm3f2HOEQzz2ZGWPLDfb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gopath\src\github.com\syndtr\goleveldb\leveldb\cache" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.cache_test.go">
+    <configuration name="BenchmarkLRUCache in github.com/syndtr/goleveldb/leveldb/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goleveldb" />
+      <working_directory value="$PROJECT_DIR$/leveldb/cache" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="github.com/syndtr/goleveldb/leveldb/cache" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkLRUCache$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestARC_HitMiss in github.com/syndtr/goleveldb/leveldb/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goleveldb" />
+      <working_directory value="$PROJECT_DIR$/leveldb/cache" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/syndtr/goleveldb/leveldb/cache" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestARC_HitMiss$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestARC_HitMiss2 in github.com/syndtr/goleveldb/leveldb/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goleveldb" />
+      <working_directory value="$PROJECT_DIR$/leveldb/cache" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/syndtr/goleveldb/leveldb/cache" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestARC_HitMiss2$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLRUCache_Close in github.com/syndtr/goleveldb/leveldb/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goleveldb" />
+      <working_directory value="$PROJECT_DIR$/leveldb/cache" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/syndtr/goleveldb/leveldb/cache" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLRUCache_Close$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cache_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goleveldb" />
+      <working_directory value="$PROJECT_DIR$/leveldb/cache" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="github.com/syndtr/goleveldb" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/leveldb/cache/cache_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.cache_test.go" />
+        <item itemvalue="Go Test.TestARC_HitMiss in github.com/syndtr/goleveldb/leveldb/cache" />
+        <item itemvalue="Go Test.TestARC_HitMiss2 in github.com/syndtr/goleveldb/leveldb/cache" />
+        <item itemvalue="Go Test.BenchmarkLRUCache in github.com/syndtr/goleveldb/leveldb/cache" />
+        <item itemvalue="Go Test.TestLRUCache_Close in github.com/syndtr/goleveldb/leveldb/cache" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="776" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1620203048857">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="311" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1620203048857" />
+    <state x="475" y="187" key="SettingsEditor" timestamp="1619437780813">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="475" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1619437780813" />
+    <state x="645" y="230" width="696" height="644" key="find.popup" timestamp="1614598659223">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="645" y="230" width="696" height="644" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1614598659223" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leveldb/db_state.go</url>
+          <line>367</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leveldb/batch.go</url>
+          <line>80</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leveldb/batch.go</url>
+          <line>408</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leveldb/table/reader.go</url>
+          <line>55</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leveldb/table/reader.go</url>
+          <line>128</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leveldb/session_compaction.go</url>
+          <line>339</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leveldb/session_compaction.go</url>
+          <line>325</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leveldb/cache/cache_test.go</url>
+          <line>453</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leveldb/cache/cache_test.go</url>
+          <line>259</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leveldb/cache/cache_test.go</url>
+          <line>312</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
